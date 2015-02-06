@@ -1,0 +1,108 @@
+html{
+  background-color: #F2B6C7;
+  font-size: 1rem;
+  font-family: 'Chewy', cursive;
+  margin: 0;
+}
+
+body{
+  margin: 1em;
+}
+
+header{
+  background-color: #A67D88;
+  margin: 0;
+  border: 5px solid #A67D88;
+  border-radius: 0px;
+  font-family: 'Chewy', cursive;
+  color: white;
+  padding: .5em 1em .25em .5em;
+}
+
+h1 {
+  text-align: center;
+  font-size: 5rem;
+}
+
+nav{
+  background-color: none;
+  text-align: center;
+  margin: 0;
+}
+
+nav ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li{
+  display: inline-block;
+  margin: 0em 0em 0.25em 0em;
+}
+
+nav a{
+  display: inline-block;
+  padding: 0.5em 0.75em;
+  background-color: #403034;
+  color: #F2B6C7;
+  text-decoration: none;
+  border-radius: 4px;
+  font-family: 'PT Serif', serif;
+  text-align: center;
+}
+
+nav a:hover{
+  color: white;
+}
+
+main{
+  margin: 1em;
+}
+
+p{
+  text-align:left;
+  color: #403034;
+  font-family: 'PT Serif', serif;
+  font-size: 1rem;
+}
+
+b{
+  color: ;
+}
+
+blockquote{
+  font-size: 2rem;
+  color: white;
+}
+
+blockquote span{
+  color: ;
+  font-size: ;
+}
+
+h2{
+  font-family: 'Chewy', cursive;
+  color: ;
+  text-align: left;
+  font-size: rem;
+}
+
+img{
+  width: 100%;
+}
+
+figure{
+  border-radius: 20px;
+  border: solid white;
+  list-style-stype: none;
+  padding: 1.5em;
+  background-color: #A67D88;
+  text-align: center;
+}
+
+figcaption{
+  color: #F2B6C7;
+  font-style: itialic;
+  font-size: .75rem;
+}
