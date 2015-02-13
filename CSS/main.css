@@ -5,7 +5,6 @@ html {
 h1{
   font-weight: normal;
   font-size: 3rem;
-  font-style: none;
   text-decoration: none;
   font-family: 'Chewy', cursive;
   line-height: 1.5;
@@ -94,7 +93,7 @@ dt, dd {
 }
 
 dt {
-  font-style: bold;
+  font-weight: bold;
 }
 
 dd {
@@ -164,7 +163,7 @@ nav li {
 
 nav a {
   display: inline-block;
-  padding: 1em 1em;
+  padding: .5em .5em;
   background-color: #CC6683;
   color: #fff;
   text-decoration: none;
