@@ -1,30 +1,10 @@
-html {
-  background-color: #FFF0E8;
+html{
+  background-color: #FFF0E8:
 }
 
-h1{
-  font-weight: normal;
-  font-size: 3rem;
-  text-decoration: none;
-  font-family: 'Chewy', cursive;
-  line-height: 1.5;
-  color: #CC6683;
-}
-
-
-body {
+body{
   margin: 0;
-  }
-
-
-p {
-  line-height: 1.25;
 }
-
-main {
-  padding: 0.5em;
-}
-
 
 header{
   background-color: #FFADBF;
@@ -33,15 +13,69 @@ header{
   text-align: center;
 }
 
-footer{
-  background-color: #FFADBF;
-  padding: 1em 2em 0.5em 2em;
-  margin: 0;
+h1{
+  font-weight: normal;
+  font-size: 4rem;
+  text-decoration: none;
+  font-family: 'Chewy', cursive;
+  line-height: 1.5;
+  color: #CC6683;
+}
+
+nav{
   text-align: center;
 }
 
+nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
 
-h2 {
+nav li{
+  display: inline-block;
+  margin: 0em 0em .25em 0em;
+}
+
+nav a{
+  display: inline-block;
+  padding: .5em .5em;
+  background-color: #CC6683;
+  color: #FFF;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: 1s ease
+}
+
+nav a:hover{
+  background-color: #FFADBF;
+}
+
+main{
+  padding: 0.5em;
+}
+
+p{
+  line-height: 1.25;
+}
+
+blockquote{
+  font-size: 1.25rem;
+  font-style: italic;
+  color: #CC6683;
+  text-align: center;
+}
+
+span{
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+cite{
+  text-align: center;
+}
+
+h2{
   font-weight: normal;
   font-size: 2rem;
   text-decoration: none;
@@ -49,12 +83,28 @@ h2 {
   line-height: 1.5;
   padding: 1em 0em 0em 0em;
   color: #CC6683;
-  border-top:5px solid #FFADBF
-
+  border-top: 5px solid #FFADBF
 }
 
+figure{
+  border: 2px solid #CC6683;
+  background-color: #FFADBF;
+  border-radius: .4em;
+  padding: 0.5em 0.5em 0.5em 0.5em;
+}
 
-h3 {
+img{
+  width: 100%;
+}
+
+figcaption{
+  font-size: 1rem;
+  font-style: italic;
+  color: #CC6683;
+  text-align: center;
+}
+
+h3{
   font-weight: normal;
   font-size: 1.2rem;
   text-decoration: none;
@@ -62,115 +112,20 @@ h3 {
   line-height: 1.5;
   padding: 0em 0em 0em 0em;
   color: #CC6683;
-
 }
 
+dt{
+  font-weight: bold;
+}
 
-a {
+dd{
   color: #CC6683;
+  margin: .5em 0em .5em 0em;
 }
 
-figcaption {
-  font-size: .8rem;
-  font-style: italic;
-  color: #CC6683;
-  text-align: center;
-}
-
-figure {
-  border: 2px solid #CC6683;
+footer{
   background-color: #FFADBF;
-  border-radius: .4em;
-  padding: 0.5em 0.5em 0.5em 0.5em;
-}
-img {
-  width: 100%;
-}
-
-dt, dd {
-  color: #CC6683;
-  margin: .5em 0em 0em 0em;
-}
-
-dt {
-  font-weight: bold;
-}
-
-dd {
-  color: #2B0B04;
-  margin: .25em 0em 0em 0em;
-}
-
-li {
-  margin: 1em 1em 1em 1em;
-}
-
-
-nav ol {
-  padding: 0;
-}
-
-footer ol {
-  list-style-type: circle;
-}
-
-b {
-  color: #CC6683;
-  font-weight: bold;
-}
-
-span {
-  text-align: center;
-  font-size: 2.5rem;
-}
-
-
-blockquote {
-  font-size: 1.25rem;
-  font-style: italic;
-  color: #CC6683;
-  text-align: center;
-}
-
-
-cite {
-  text-align: center;
-}
-
-
-
-div {
-  text-align: center;
-  font-size: 1rem;
-  color: #CC6683;
-  margin: .5em 0em 0em 0em;
-}
-
-nav {
-  text-align: center;
-}
-
-nav ul {
-  list-style-type: none;
+  padding: 1em 2em 0.5em 2em;
   margin: 0;
-  padding: 0;
-}
-
-nav li {
-  display: inline-block;
-  margin: 0em 0em .25em 0em;
-}
-
-nav a {
-  display: inline-block;
-  padding: .5em .5em;
-  background-color: #CC6683;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 10px;
-  transition: 1s ease
-}
-
-nav a:hover {
-  background-color:#FFADBF;
+  text-align: center;
 }
